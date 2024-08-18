@@ -19,8 +19,10 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <div class="shrink-0 flex items-center">
-                        <a href="/" class="w-60"><img loading="lazy" src="img/logo.png" class="w-60"
-                                alt="Technoreum Logo"></a>
+                        <a href="/" class="w-60" aria-label="Technoreum Home">
+                            <img loading="lazy" src="img/logo.png" class="w-60" width="240" height="auto"
+                                alt="Technoreum Logo">
+                        </a>
                     </div>
                 </div>
                 <div class="hidden md:flex space-x-8 items-center">
@@ -52,137 +54,182 @@
     <!-- header end here  -->
     <main>
         <!-- banner  -->
-        <section id="home" class=" bg-[#171717]">
+        <section id="home" class="bg-[#171717]">
             <div
                 class="lg:min-h-screen container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-between gap-x-52 gap-y-5 sm:gap-y-8 py-10 lg:py-0">
                 <div class="flex-1 text-white space-y-5 lg:space-y-10">
-                    <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl lg:leading-normal text-center md:text-start">Transforming Ideas into
-                        Digital <span id="typewriter" class="text-[#4499c6]"></span></h1>
-                    <p class="text-base md:text-lg lg:text-xl text-center md:text-start">We're a creative design studio specializing in meeting
-                        the needs of the new generation. We offer
-                        innovative and
-                        cutting-edge design solutions to help our clients stand out in today's fast-paced.</p>
+                    <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl lg:leading-normal text-center md:text-start">
+                        Transforming Ideas into Digital
+                        <span id="typewriter" class="text-[#4499c6]"></span>
+                    </h1>
+                    <p class="text-base md:text-lg lg:text-xl text-center md:text-start">
+                        We're a creative design studio specializing in meeting the needs of the new generation. We offer
+                        innovative and cutting-edge design solutions to help our clients stand out in today's fast-paced
+                        world.
+                    </p>
                     <div>
-                        <a class="bg-[#4499c6] text-white hover:bg-opacity-80  px-9 py-4 rounded-[30px] text-base md:text-lg font-medium inline-block w-full md:w-auto text-center"
-                            href="tel:01245755">Book a free consultation</a>
+                        <a class="bg-[#4499c6] text-white hover:bg-opacity-80 px-9 py-4 rounded-[30px] text-base md:text-lg font-medium inline-block w-full md:w-auto text-center"
+                            href="tel:01245755">
+                            Book a free consultation
+                        </a>
                     </div>
                 </div>
-                <div class="max-w-[85%] sm:max-w-full lg:max-w-[528px]">
-                    <img src="img/banner.webp" class="rounded-xl" alt="Hero Img">
+                <div class="max-w-full lg:max-w-[528px]">
+                    <img src="img/banner.webp" class="rounded-xl" alt="Technoreum homepage banner showing key services"
+                        loading="lazy" width="528" height="auto">
                 </div>
             </div>
         </section>
+
         <!-- about  -->
         <section id="about"
-            class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between py-10 lg:py-20 gap-x-16 gap-y-5">
+            class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center py-10 lg:py-20 gap-x-16 gap-y-5">
             <div class="flex-1" data-aos="fade-up">
-                <img src="img/about.webp" class="rounded-lg" alt="">
+                <img src="img/about.webp" class="rounded-lg ms-auto"
+                    alt="Technoreum team working on innovative digital solutions" loading="lazy" width="528"
+                    height="auto">
             </div>
-            <div class="flex-1 space-y-3 md:space-y-5 text-center md:text-start" data-aos="fade-up"  data-aos-delay="300">
+            <div class="flex-1 space-y-3 md:space-y-5 text-center md:text-start" data-aos="fade-up"
+                data-aos-delay="300">
                 <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">About Us</h2>
-                <p class="text-base md:text-lg text-[#5f5f5f]">At Technoreum, we are driven by a passion for
-                    transforming bold ideas into groundbreaking digital solutions. With a
-                    focus on creativity, innovation, and reliability, our team works tirelessly to deliver excellence in
-                    every project we
-                    undertake. From cutting-edge designs to advanced technology integrations, we are committed to
-                    pushing boundaries and
-                    helping businesses thrive in the digital age. Join us on this journey of growth, success, and
-                    continuous innovation.</p>
-                <p class="text-base md:text-lg text-[#5f5f5f]">This title and description reflect a strong commitment to
-                    innovation and excellence, aligning with the values of a
-                    forward-thinking agency.</p>
+                <p class="text-base md:text-lg text-[#5f5f5f]">
+                    At Technoreum, we are driven by a passion for transforming bold ideas into groundbreaking digital
+                    solutions.
+                    With a focus on creativity, innovation, and reliability, our team works tirelessly to deliver
+                    excellence in
+                    every project we undertake.
+                    From cutting-edge designs to advanced technology integrations, we are committed to pushing
+                    boundaries and
+                    helping businesses thrive in the digital age.
+                    Join us on this journey of growth, success, and continuous innovation.
+                </p>
+                <p class="text-base md:text-lg text-[#5f5f5f]">
+                    This title and description reflect a strong commitment to innovation and excellence, aligning with
+                    the
+                    values of a forward-thinking agency.
+                </p>
             </div>
         </section>
+
         <!-- service  -->
-        <section id="services" class="bg-[#f5f5f5]" data-aos="fade-up"  data-aos-delay="100">
+        <section id="services" class="bg-[#f5f5f5]" data-aos="fade-up" data-aos-delay="100">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
                 <div class="text-center space-y-3 lg:space-y-5">
                     <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Revolutionary Digital Services</h2>
                     <p class="text-base md:text-lg text-[#5f5f5f] mx-auto max-w-[850px]">
                         Transforming businesses with advanced design, development, and marketing services, leveraging
-                        the latest technology to
-                        drive growth and stay ahead in the digital era.
+                        the latest technology to drive growth and stay ahead in the digital era.
                     </p>
                 </div>
                 <!-- services card  -->
                 <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
                     <!-- single item  -->
-                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="100">
-                        <div class="">
-                            <img src="img/ux.png" class="w-16 mx-auto" alt="">
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div>
+                            <img src="img/ux.png" class="w-16 mx-auto" alt="UI/UX Design Icon" loading="lazy" width="64"
+                                height="64">
                         </div>
                         <div class="space-y-3 mt-6">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">UI/UX Design</h3>
                             <p class="text-base md:text-lg text-[#5f5f5f]">We design user interfaces that are not only
                                 visually appealing but also intuitive and user-friendly. Our focus is on
-                                creating seamless experiences that engage and delight your audience.</p>
+                                creating seamless experiences that engage and delight your audience.
+                            </p>
                         </div>
                     </div>
                     <!-- single item  -->
-                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="150">
-                        <div class="">
-                            <img src="img/web.png" class="w-16 mx-auto" alt="">
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="150">
+                        <div>
+                            <img src="img/web.png" class="w-16 mx-auto" alt="Web Design & Development Icon"
+                                loading="lazy" width="64" height="64">
                         </div>
                         <div class="space-y-3 mt-6">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Web Design & Development</h3>
                             <p class="text-base md:text-lg text-[#5f5f5f]">Our team builds responsive and
-                                high-performing websites tailored to your needs. We ensure your website delivers both
-                                aesthetic appeal and functionality to help you achieve your business goals.</p>
+                                high-performing
+                                websites tailored to your needs. We ensure your website delivers both aesthetic appeal
+                                and
+                                functionality to help you achieve your business goals.
+                            </p>
                         </div>
                     </div>
                     <!-- single item  -->
-                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="200">
-                        <div class="">
-                            <img src="img/graphich.png" class="w-16 mx-auto" alt="">
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div>
+                            <img src="img/graphich.png" class="w-16 mx-auto" alt="Graphic Design Icon" loading="lazy"
+                                width="64" height="64">
                         </div>
                         <div class="space-y-3 mt-6">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Graphic Design</h3>
                             <p class="text-base md:text-lg text-[#5f5f5f]">We craft compelling visuals that resonate
-                                with your brand identity. From logos to marketing materials, our designs make
-                                a lasting impression and communicate your message effectively.</p>
+                                with your
+                                brand identity. From logos to marketing materials, our designs make a lasting impression
+                                and
+                                communicate your message effectively.
+                            </p>
                         </div>
                     </div>
                     <!-- single item  -->
-                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="250">
-                        <div class="">
-                            <img src="img/digital.png" class="w-16 mx-auto" alt="">
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="250">
+                        <div>
+                            <img src="img/digital.png" class="w-16 mx-auto" alt="Digital Marketing Icon" loading="lazy"
+                                width="64" height="64">
                         </div>
                         <div class="space-y-3 mt-6">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Digital Marketing</h3>
                             <p class="text-base md:text-lg text-[#5f5f5f]">We create data-driven digital marketing
-                                strategies to increase your brand's visibility and reach. Our campaigns are
-                                designed to drive engagement, conversions, and measurable growth.</p>
+                                strategies to
+                                increase your brand's visibility and reach. Our campaigns are designed to drive
+                                engagement,
+                                conversions, and measurable growth.
+                            </p>
                         </div>
                     </div>
                     <!-- single item  -->
-                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="300">
-                        <div class="">
-                            <img src="img/seo.png" class="w-16 mx-auto" alt="">
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <div>
+                            <img src="img/seo.png" class="w-16 mx-auto" alt="SEO Optimization Icon" loading="lazy"
+                                width="64" height="64">
                         </div>
                         <div class="space-y-3 mt-6">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">SEO Optimization</h3>
                             <p class="text-base md:text-lg text-[#5f5f5f]">Our SEO services enhance your website's
-                                search engine ranking, driving organic traffic. We implement tailored strategies
-                                to improve your visibility and help you stay ahead of the competition.</p>
+                                search engine
+                                ranking, driving organic traffic. We implement tailored strategies to improve your
+                                visibility
+                                and help you stay ahead of the competition.
+                            </p>
                         </div>
                     </div>
                     <!-- single item  -->
-                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="350">
-                        <div class="">
-                            <img src="img/content.png" class="w-16 mx-auto" alt="">
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="350">
+                        <div>
+                            <img src="img/content.png" class="w-16 mx-auto" alt="Content Creation Icon" loading="lazy"
+                                width="64" height="64">
                         </div>
                         <div class="space-y-3 mt-6">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Content Creation</h3>
                             <p class="text-base md:text-lg text-[#5f5f5f]">We produce engaging content that reflects
-                                your brand's voice and resonates with your target audience. From blogs to
-                                social media posts, our content strengthens your digital presence.</p>
+                                your
+                                brand's voice and resonates with your target audience. From blogs to social media posts,
+                                our
+                                content strengthens your digital presence.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- price  -->
-        <section id="price" class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20" data-aos="fade-up"  data-aos-delay="100">
+        <section id="price" class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20" data-aos="fade-up"
+            data-aos-delay="100">
             <div class="text-center space-y-3 lg:space-y-5">
                 <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Affordable Service Packages</h2>
                 <p class="text-base md:text-lg text-[#5f5f5f] mx-auto max-w-[800px]">
@@ -193,7 +240,7 @@
             <!-- price card  -->
             <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
                 <!-- single item   -->
-                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="150">
+                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg" data-aos="fade-up" data-aos-delay="150">
                     <h3 class="text-xl md:text-2xl text-[#171717] font-semibold text-center">Graphic Design</h3>
                     <h4 class="my-3 font-semibold text-center">
                         <span class="text-[#171717]">Starts From</span>
@@ -261,8 +308,9 @@
 
                 </div>
                 <!-- single item   -->
-                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="200">
-                    <h3 class="text-xl md:text-2xl text-[#171717] font-semibold text-center">Web Design & Development</h3>
+                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl md:text-2xl text-[#171717] font-semibold text-center">Web Design & Development
+                    </h3>
                     <h4 class="my-3 font-semibold text-center">
                         <span class="text-[#171717]">Starts From</span>
                         <span class="text-xl md:text-2xl text-[#4499c6]">$399
@@ -329,7 +377,7 @@
 
                 </div>
                 <!-- single item   -->
-                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="250">
+                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg" data-aos="fade-up" data-aos-delay="250">
                     <h3 class="text-xl md:text-2xl text-[#171717] font-semibold text-center">UI/UX Design</h3>
                     <h4 class="my-3 font-semibold text-center">
                         <span class="text-[#171717]">Starts From</span>
@@ -400,194 +448,225 @@
             </div>
         </section>
         <!-- testimonial  -->
-        <section id="services" class="bg-[#f5f5f5]" data-aos="fade-up"  data-aos-delay="100">
+        <section id="services" class="bg-[#f5f5f5]" data-aos="fade-up" data-aos-delay="100">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
                 <div class="text-center space-y-3 lg:space-y-5">
                     <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Client Success Stories</h2>
                     <p class="text-base md:text-lg text-[#5f5f5f] mx-auto max-w-[850px]">
-                        Read how our innovative solutions have transformed our clients' businesses and driven their success. Discover firsthand
-                        accounts of exceptional results and satisfied customers
+                        Read how our innovative solutions have transformed our clients' businesses and driven their
+                        success.
+                        Discover firsthand
+                        accounts of exceptional results and satisfied customers.
                     </p>
                 </div>
                 <!-- testimonial card  -->
                 <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
-                    <!-- single item  -->
-                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="150">
-                        <div class="flex gap-2">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
+                    <!-- single item 1 -->
+                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="150">
+                        <div class="flex gap-2" aria-label="5-star rating">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
                         </div>
                         <div class="space-y-2 mb-6 mt-4">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Super customer service!</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute
-                                order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.
+                            <p class="text-base text-[#5f5f5f]">
+                                Excellent customer service and I was really impressed and happy with my purchase,
+                                especially as
+                                it was a last-minute
+                                order. When it arrived, I was very happy with the design and size, and so was the
+                                recipient.
                             </p>
                         </div>
-                        <!-- avatar  -->
+                        <!-- avatar -->
                         <div class="flex items-center gap-x-5">
-                            <div><img src="img/t_thumb1.png" class="rounded-[50%] w-16" alt=""></div>
+                            <div><img src="img/t_thumb1.png" class="rounded-[50%] w-16" alt="William Jack"></div>
                             <div class="flex-1">
                                 <h5 class="font-semibold text-lg text-[#4499C6]">William Jack</h5>
                                 <p class="text-sm text-[#5f5f5f]">Businessman</p>
                             </div>
                         </div>
                     </div>
-                    <!-- single item  -->
-                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="200">
-                        <div class="flex gap-2">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
+                    <!-- single item 2 -->
+                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="flex gap-2" aria-label="5-star rating">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
                         </div>
                         <div class="space-y-2 mb-6 mt-4">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Transformed our brand</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute
-                                order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.
+                            <p class="text-base text-[#5f5f5f]">
+                                The team's creativity and attention to detail were outstanding. They helped us redefine
+                                our
+                                brand and
+                                deliver a fresh, modern identity that resonates with our target audience.
                             </p>
                         </div>
-                        <!-- avatar  -->
+                        <!-- avatar -->
                         <div class="flex items-center gap-x-5">
-                            <div><img src="img/t_thumb2.png" class="rounded-[50%] w-16" alt=""></div>
+                            <div><img src="img/t_thumb2.png" class="rounded-[50%] w-16" alt="Danial Mark"></div>
                             <div class="flex-1">
                                 <h5 class="font-semibold text-lg text-[#4499C6]">Danial Mark</h5>
                                 <p class="text-sm text-[#5f5f5f]">Creative Director</p>
                             </div>
                         </div>
                     </div>
-                    <!-- single item  -->
-                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"  data-aos-delay="250">
-                        <div class="flex gap-2">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
-                            <img src="img/star.png" class="w-8" alt="">
+                    <!-- single item 3 -->
+                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg" data-aos="fade-up"
+                        data-aos-delay="250">
+                        <div class="flex gap-2" aria-label="5-star rating">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
+                            <img src="img/star.png" class="w-8" alt="Star">
                         </div>
                         <div class="space-y-2 mb-6 mt-4">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Exceptional creativity</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute
-                                order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.
+                            <p class="text-base text-[#5f5f5f]">
+                                The creative input from this team truly elevated our project. Their unique ideas and
+                                expert
+                                execution brought our vision
+                                to life beyond our expectations.
                             </p>
                         </div>
-                        <!-- avatar  -->
+                        <!-- avatar -->
                         <div class="flex items-center gap-x-5">
-                            <div><img src="img/t_thumb3.png" class="rounded-[50%] w-16" alt=""></div>
+                            <div><img src="img/t_thumb3.png" class="rounded-[50%] w-16" alt="Smith Align"></div>
                             <div class="flex-1">
                                 <h5 class="font-semibold text-lg text-[#4499C6]">Smith Align</h5>
                                 <p class="text-sm text-[#5f5f5f]">Businessman</p>
                             </div>
                         </div>
                     </div>
-                   
-                   
                 </div>
             </div>
         </section>
+
         <!-- Team  -->
-        <section id="services" class="" data-aos="fade-up"  data-aos-delay="100">
+        <section id="services" class="" data-aos="fade-up" data-aos-delay="100">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
                 <div class="text-center space-y-3 lg:space-y-5">
                     <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Our Team</h2>
-        
                 </div>
-                <!-- team card  -->
+                <!-- Team grid -->
                 <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- single item  -->
-                    <div data-aos="fade-up"  data-aos-delay="150">
+                    <!-- Team member 1 -->
+                    <article class="team-member" data-aos="fade-up" data-aos-delay="150">
                         <div class="bg-[#fdfdfd] relative border-4 border-[#4499c6] rounded-lg overflow-hidden group">
-                            <img src="img/team1.png"
-                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <img src="img/team1.png" loading="lazy"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105"
+                                alt="Portrait of Andrew Mark, Creative Director">
                             <div
                                 class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
                             </div>
                             <div
-                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
-                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                class="social-links flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="https://facebook.com" aria-label="Facebook Profile of Andrew Mark"><img
+                                        src="img/facebook.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Facebook"></a>
+                                <a href="https://instagram.com" aria-label="Instagram Profile of Andrew Mark"><img
+                                        src="img/instagram.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Instagram"></a>
+                                <a href="https://linkedin.com" aria-label="LinkedIn Profile of Andrew Mark"><img
+                                        src="img/linkedin.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="LinkedIn"></a>
                             </div>
                         </div>
                         <div class="text-center mt-4">
                             <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Creative Director
-                            </p>
+                            <p class="text-base text-[#5f5f5f]">Creative Director</p>
                         </div>
-                    </div>
-                    <!-- single item  -->
-                    <div data-aos="fade-up"  data-aos-delay="200">
+                    </article>
+                    <!-- Team member 2 -->
+                    <article class="team-member" data-aos="fade-up" data-aos-delay="200">
                         <div class="bg-[#fdfdfd] relative border-4 border-[#4499c6] rounded-lg overflow-hidden group">
-                            <img src="img/team1.png"
-                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <img src="img/team1.png" loading="lazy"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105"
+                                alt="Portrait of Lisa James, Lead Designer">
                             <div
                                 class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
                             </div>
                             <div
-                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
-                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                class="social-links flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="https://facebook.com" aria-label="Facebook Profile of Lisa James"><img
+                                        src="img/facebook.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Facebook"></a>
+                                <a href="https://instagram.com" aria-label="Instagram Profile of Lisa James"><img
+                                        src="img/instagram.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Instagram"></a>
+                                <a href="https://linkedin.com" aria-label="LinkedIn Profile of Lisa James"><img
+                                        src="img/linkedin.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="LinkedIn"></a>
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Creative Director
-                            </p>
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Lisa James</h3>
+                            <p class="text-base text-[#5f5f5f]">Lead Designer</p>
                         </div>
-                    </div>
-                    <!-- single item  -->
-                    <div data-aos="fade-up"  data-aos-delay="250">
+                    </article>
+                    <!-- Team member 3 -->
+                    <article class="team-member" data-aos="fade-up" data-aos-delay="250">
                         <div class="bg-[#fdfdfd] relative border-4 border-[#4499c6] rounded-lg overflow-hidden group">
-                            <img src="img/team1.png"
-                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <img src="img/team1.png" loading="lazy"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105"
+                                alt="Portrait of John Doe, Project Manager">
                             <div
                                 class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
                             </div>
                             <div
-                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
-                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                class="social-links flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="https://facebook.com" aria-label="Facebook Profile of John Doe"><img
+                                        src="img/facebook.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Facebook"></a>
+                                <a href="https://instagram.com" aria-label="Instagram Profile of John Doe"><img
+                                        src="img/instagram.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Instagram"></a>
+                                <a href="https://linkedin.com" aria-label="LinkedIn Profile of John Doe"><img
+                                        src="img/linkedin.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="LinkedIn"></a>
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Creative Director
-                            </p>
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">John Doe</h3>
+                            <p class="text-base text-[#5f5f5f]">Project Manager</p>
                         </div>
-                    </div>
-                    <!-- single item  -->
-                    <div data-aos="fade-up"  data-aos-delay="300">
+                    </article>
+                    <!-- Team member 4 -->
+                    <article class="team-member" data-aos="fade-up" data-aos-delay="300">
                         <div class="bg-[#fdfdfd] relative border-4 border-[#4499c6] rounded-lg overflow-hidden group">
-                            <img src="img/team1.png"
-                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <img src="img/team1.png" loading="lazy"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105"
+                                alt="Portrait of Sarah Connor, Marketing Head">
                             <div
                                 class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
                             </div>
                             <div
-                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
-                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
-                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                class="social-links flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="https://facebook.com" aria-label="Facebook Profile of Sarah Connor"><img
+                                        src="img/facebook.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Facebook"></a>
+                                <a href="https://instagram.com" aria-label="Instagram Profile of Sarah Connor"><img
+                                        src="img/instagram.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="Instagram"></a>
+                                <a href="https://linkedin.com" aria-label="LinkedIn Profile of Sarah Connor"><img
+                                        src="img/linkedin.png" class="w-10 rounded-full bg-white border" loading="lazy"
+                                        alt="LinkedIn"></a>
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
-                            <p class="text-base  text-[#5f5f5f]">
-                                Creative Director
-                            </p>
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Sarah Connor</h3>
+                            <p class="text-base text-[#5f5f5f]">Marketing Head</p>
                         </div>
-                    </div>
+                    </article>
+
                 </div>
             </div>
         </section>
@@ -598,7 +677,8 @@
             <div
                 class="max-w-[600px]  p-5 md:p-8 lg:p-10 rounded-lg bg-white shadow-[0px_0px_10px_0px_rgba(227,_227,_227,_0.5)] flex-1 mb-8 lg:mb-0">
                 <div class="mb-6">
-                    <h2 class="font-semibold text-2xl md:text-3xl text-[#171717] text-center">Our friendly team is always happy
+                    <h2 class="font-semibold text-2xl md:text-3xl text-[#171717] text-center">Our friendly team is
+                        always happy
                         to connect with you</h2>
                 </div>
                 <form action="">
@@ -606,7 +686,8 @@
                         class="border border-[#ddd] w-full rounded-md mb-2 p-3 lg:p-4">
                     <input type="email" placeholder="Email" name="" id=""
                         class="border border-[#ddd] w-full rounded-md mb-2 p-3 lg:p-4">
-                    <input type="tel" placeholder="Phone" id="" class="border border-[#ddd] w-full rounded-md mb-2 p-3 lg:p-4">
+                    <input type="tel" placeholder="Phone" id=""
+                        class="border border-[#ddd] w-full rounded-md mb-2 p-3 lg:p-4">
                     <textarea placeholder="Message" rows="4" name="" id=""
                         class="border border-[#ddd] w-full rounded-md mb-2 p-3 lg:p-4"></textarea>
                     <button
@@ -615,34 +696,37 @@
             </div>
             <div class="max-w-[400px]">
                 <h3 class="font-semibold text-2xl md:text-3xl text-[#171717] mb-4">How to Reach Us</h3>
-                <p class="mb-2 text-[#5f5f5f]"><span class="text-[#171717] font-semibold">Address:</span> 123 Tech Street, Innovation City, TX 75001</p>
-                <p class="mb-2"><span class="text-[#171717] font-semibold">Phone:</span> <a href="tel:+1234567890" class="text-[#4499c6] hover:underline">(123)
+                <p class="mb-2 text-[#5f5f5f]"><span class="text-[#171717] font-semibold">Address:</span> 123 Tech
+                    Street, Innovation City, TX 75001</p>
+                <p class="mb-2"><span class="text-[#171717] font-semibold">Phone:</span> <a href="tel:+1234567890"
+                        class="text-[#4499c6] hover:underline">(123)
                         456-7890</a></p>
-                <p class="mb-2"><span class="text-[#171717] font-semibold">Email:</span > <a href="mailto:support@example.com"
-                        class="text-[#4499c6] hover:underline">support@example.com</a></p>
-                <p class="mb-2 text-[#5f5f5f]"><span class="text-[#171717] font-semibold">Business Hours:</span > Mon - Fri, 9 AM - 5 PM</p>
-                    <!-- social icon  -->
-                    <div
-                        class="flex items-center gap-x-3 mt-5">
-                        <a href="#"><img src="img/facebook.png" class="w-10" alt=""></a>
-                        <a href="#"><img src="img/instagram.png" class="w-10" alt=""></a>
-                        <a href="#"><img src="img/linkedin.png" class="w-10" alt=""></a>
-                        <a href="#"><img src="img/twitter.png" class="w-10" alt=""></a>
-                    </div>
+                <p class="mb-2"><span class="text-[#171717] font-semibold">Email:</span> <a
+                        href="mailto:support@example.com" class="text-[#4499c6] hover:underline">support@example.com</a>
+                </p>
+                <p class="mb-2 text-[#5f5f5f]"><span class="text-[#171717] font-semibold">Business Hours:</span> Mon -
+                    Fri, 9 AM - 5 PM</p>
+                <!-- social icon  -->
+                <div class="flex items-center gap-x-3 mt-5">
+                    <a href="#"><img src="img/facebook.png" class="w-10" alt=""></a>
+                    <a href="#"><img src="img/instagram.png" class="w-10" alt=""></a>
+                    <a href="#"><img src="img/linkedin.png" class="w-10" alt=""></a>
+                    <a href="#"><img src="img/twitter.png" class="w-10" alt=""></a>
+                </div>
             </div>
         </section>
 
     </main>
     <footer class="bg-[#171717] py-5">
-        <p class="text-center text-white text-sm">Copyright © 2023. All right reserved. Design and development by Zellyo Digital</p>
+        <p class="text-center text-white text-sm">Copyright © 2023. All right reserved. Design and development by Zellyo
+            Digital</p>
     </footer>
 
-    <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank"
-        class="fixed bottom-4 right-4 z-50 rounded-full">
-        <img src="img/whatsapp.png" alt="WhatsApp" class="w-12 h-12" />
+    <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" rel="noopener noreferrer"
+        class="fixed bottom-4 right-4 z-50 rounded-full shadow-lg" aria-label="Chat with us on WhatsApp">
+        <img src="img/whatsapp.png" alt="WhatsApp" class="w-12 h-12" loading="lazy" />
     </a>
-
-
+    
     <script>
         // Initialize AOS for animations
         AOS.init();
