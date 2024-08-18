@@ -16,3 +16,9 @@
      max-height: 300px;
      opacity: 1;
  }
+#contact{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
