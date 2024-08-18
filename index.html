@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technoreum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header start here  -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="shrink-0 flex items-center">
+                        <a href="/" class="w-60"><img loading="lazy" src="img/logo.png" class="w-60"
+                                alt="Technoreum Logo"></a>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-[#171717] hover:text-[#4499c6]" title="Home Page">Home</a>
+                    <a href="#about" class="text-[#171717] hover:text-[#4499c6]" title="Learn About Us">About</a>
+                    <a href="#services" class="text-[#171717] hover:text-[#4499c6]"
+                        title="View Our Services">Services</a>
+                    <a href="#contact" class="text-[#171717] hover:text-[#4499c6]" title="Contact Us">Contact</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <button id="hamburger" class="text-gray-700 focus:outline-none">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobileMenu" class="md:hidden bg-white" data-aos="fade-down">
+            <a href="#home" class="block px-4 py-2 text-[#171717] hover:bg-gray-100" title="Home Page">Home</a>
+            <a href="#about" class="block px-4 py-2 text-[#171717] hover:bg-gray-100" title="Learn About Us">About</a>
+            <a href="#services" class="block px-4 py-2 text-[#171717] hover:bg-gray-100"
+                title="View Our Services">Services</a>
+            <a href="#contact" class="block px-4 py-2 text-[#171717] hover:bg-gray-100" title="Contact Us">Contact</a>
+        </div>
+    </nav>
+    <!-- header end here  -->
+    <main>
+        <!-- banner  -->
+        <section id="home" class=" bg-[#171717]">
+            <div
+                class="min-h-screen container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-between gap-x-52 gap-y-8 py-8 lg:py-0">
+                <div class="flex-1 text-white space-y-5 lg:space-y-10">
+                    <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl lg:leading-normal">Transforming Ideas into
+                        Digital <span id="typewriter" class="text-[#4499c6]"></span></h1>
+                    <p class="text-base md:text-lg lg:text-xl">We're a creative design studio specializing in meeting
+                        the needs of the new generation. We offer
+                        innovative and
+                        cutting-edge design solutions to help our clients stand out in today's fast-paced.</p>
+                    <div>
+                        <a class="bg-[#4499c6] text-white hover:bg-opacity-80  px-9 py-4 rounded-[30px] text-base md:text-lg font-medium inline-block"
+                            href="tel:01245755">Book a free consultation</a>
+                    </div>
+                </div>
+                <div class="max-w-full lg:max-w-[528px]">
+                    <img src="img/hero-thumb.webp" class="rounded-xl" alt="Hero Img">
+                </div>
+            </div>
+        </section>
+        <!-- about  -->
+        <section id="about"
+            class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between py-10 lg:py-20 gap-x-16 gap-y-5">
+            <div class="flex-1">
+                <img src="img/about.webp" class="rounded-lg" alt="">
+            </div>
+            <div class="flex-1 space-y-3 md:space-y-5 ">
+                <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">About Us</h2>
+                <p class="text-base md:text-lg text-[#5f5f5f]">At Technoreum, we are driven by a passion for
+                    transforming bold ideas into groundbreaking digital solutions. With a
+                    focus on creativity, innovation, and reliability, our team works tirelessly to deliver excellence in
+                    every project we
+                    undertake. From cutting-edge designs to advanced technology integrations, we are committed to
+                    pushing boundaries and
+                    helping businesses thrive in the digital age. Join us on this journey of growth, success, and
+                    continuous innovation.</p>
+                <p class="text-base md:text-lg text-[#5f5f5f]">This title and description reflect a strong commitment to
+                    innovation and excellence, aligning with the values of a
+                    forward-thinking agency.</p>
+            </div>
+        </section>
+        <!-- service  -->
+        <section id="services" class="bg-[#f5f5f5]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
+                <div class="text-center space-y-3 lg:space-y-5">
+                    <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Revolutionary Digital Services</h2>
+                    <p class="text-base md:text-lg text-[#5f5f5f] mx-auto max-w-[850px]">
+                        Transforming businesses with advanced design, development, and marketing services, leveraging
+                        the latest technology to
+                        drive growth and stay ahead in the digital era.
+                    </p>
+                </div>
+                <!-- services card  -->
+                <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
+                    <!-- single item  -->
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="">
+                            <img src="img/ux.png" class="w-16 mx-auto" alt="">
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">UI/UX Design</h3>
+                            <p class="text-base md:text-lg text-[#5f5f5f]">We design user interfaces that are not only
+                                visually appealing but also intuitive and user-friendly. Our focus is on
+                                creating seamless experiences that engage and delight your audience.</p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="">
+                            <img src="img/web.png" class="w-16 mx-auto" alt="">
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Web Design & Development</h3>
+                            <p class="text-base md:text-lg text-[#5f5f5f]">Our team builds responsive and
+                                high-performing websites tailored to your needs. We ensure your website delivers both
+                                aesthetic appeal and functionality to help you achieve your business goals.</p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="">
+                            <img src="img/graphich.png" class="w-16 mx-auto" alt="">
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Graphic Design</h3>
+                            <p class="text-base md:text-lg text-[#5f5f5f]">We craft compelling visuals that resonate
+                                with your brand identity. From logos to marketing materials, our designs make
+                                a lasting impression and communicate your message effectively.</p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="">
+                            <img src="img/digital.png" class="w-16 mx-auto" alt="">
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Digital Marketing</h3>
+                            <p class="text-base md:text-lg text-[#5f5f5f]">We create data-driven digital marketing
+                                strategies to increase your brand's visibility and reach. Our campaigns are
+                                designed to drive engagement, conversions, and measurable growth.</p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="">
+                            <img src="img/seo.png" class="w-16 mx-auto" alt="">
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">SEO Optimization</h3>
+                            <p class="text-base md:text-lg text-[#5f5f5f]">Our SEO services enhance your website's
+                                search engine ranking, driving organic traffic. We implement tailored strategies
+                                to improve your visibility and help you stay ahead of the competition.</p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="text-center bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="">
+                            <img src="img/content.png" class="w-16 mx-auto" alt="">
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Content Creation</h3>
+                            <p class="text-base md:text-lg text-[#5f5f5f]">We produce engaging content that reflects
+                                your brand's voice and resonates with your target audience. From blogs to
+                                social media posts, our content strengthens your digital presence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- price  -->
+        <section id="price" class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
+            <div class="text-center space-y-3 lg:space-y-5">
+                <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Affordable Service Packages</h2>
+                <p class="text-base md:text-lg text-[#5f5f5f] mx-auto max-w-[800px]">
+                    Explore our flexible pricing plans designed to fit a range of needs and budgets. Ensuring you get
+                    the best value for your investment.
+                </p>
+            </div>
+            <!-- price card  -->
+            <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
+                <!-- single item   -->
+                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg">
+                    <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Graphic Design</h3>
+                    <h4 class="my-3 font-semibold"><span class="text-[#171717] ">Starts From</span> <span
+                            class="text-xl md:text-2xl text-[#4499c6]">$399 <sup
+                                class="text-red-500 line-through">$799</sup></span></h4>
+                    <hr>
+                    <ul class="space-y-2 font-medium my-3">
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Up to 6 pages of custom design</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Responsive design for all devices</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>SEO-friendly structure</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>1 month of free support</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Content management system integration</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Customizable features and functionality</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Social media integration</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Advanced analytics and reporting</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>High-speed performance optimization</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Secure and reliable hosting</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Multilingual support options</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/close.png" class="w-[18px]" alt="Close"></span>
+                            <span>Custom content writing</span>
+                        </li>
+                    </ul>
+                    <div class="mt-5">
+                        <a class="bg-[#4499c6] text-white hover:bg-opacity-80  px-12 py-3 rounded-[30px] text-base font-medium text-center block"
+                            href="#">Buy Now</a>
+                    </div>
+
+
+
+                </div>
+                <!-- single item   -->
+                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg">
+                    <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Web Design & Development</h3>
+                    <h4 class="my-3 font-semibold"><span class="text-[#171717] ">Starts From</span> <span
+                            class="text-xl md:text-2xl text-[#4499c6]">$399 <sup
+                                class="text-red-500 line-through">$799</sup></span></h4>
+                    <hr>
+                    <ul class="space-y-2 font-medium my-3">
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Up to 6 pages of custom design</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Responsive design for all devices</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>SEO-friendly structure</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>1 month of free support</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Content management system integration</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Customizable features and functionality</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Social media integration</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Advanced analytics and reporting</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>High-speed performance optimization</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Secure and reliable hosting</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Multilingual support options</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/close.png" class="w-[18px]" alt="Close"></span>
+                            <span>Custom content writing</span>
+                        </li>
+                    </ul>
+                    <div class="mt-5">
+                        <a class="bg-[#4499c6] text-white hover:bg-opacity-80  px-12 py-3 rounded-[30px] text-base font-medium text-center block"
+                            href="#">Buy Now</a>
+                    </div>
+
+
+
+                </div>
+                <!-- single item   -->
+                <div class=" bg-[#f5f5f5]  p-5 md:p-10 rounded-lg">
+                    <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">UI/UX Design</h3>
+                    <h4 class="my-3 font-semibold"><span class="text-[#171717] ">Starts From</span> <span
+                            class="text-xl md:text-2xl text-[#4499c6]">$399 <sup
+                                class="text-red-500 line-through">$799</sup></span></h4>
+                    <hr>
+                    <ul class="space-y-2 font-medium my-3">
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Up to 6 pages of custom design</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Responsive design for all devices</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>SEO-friendly structure</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>1 month of free support</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Content management system integration</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Customizable features and functionality</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Social media integration</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Advanced analytics and reporting</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>High-speed performance optimization</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Secure and reliable hosting</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/check.png" class="w-4" alt="Check"></span>
+                            <span>Multilingual support options</span>
+                        </li>
+                        <li class="text-base flex items-center gap-2 text-[#5f5f5f]">
+                            <span><img src="img/close.png" class="w-[18px]" alt="Close"></span>
+                            <span>Custom content writing</span>
+                        </li>
+                    </ul>
+                    <div class="mt-5">
+                        <a class="bg-[#4499c6] text-white hover:bg-opacity-80  px-12 py-3 rounded-[30px] text-base font-medium text-center block"
+                            href="#">Buy Now</a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- testimonial  -->
+        <section id="services" class="bg-[#f5f5f5]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
+                <div class="text-center space-y-3 lg:space-y-5">
+                    <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Client Success Stories</h2>
+                    <p class="text-base md:text-lg text-[#5f5f5f] mx-auto max-w-[850px]">
+                        Read how our innovative solutions have transformed our clients' businesses and driven their success. Discover firsthand
+                        accounts of exceptional results and satisfied customers
+                    </p>
+                </div>
+                <!-- testimonial card  -->
+                <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
+                    <!-- single item  -->
+                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="flex gap-2">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                        </div>
+                        <div class="space-y-2 my-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Super customer service!</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute
+                                order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.
+                            </p>
+                        </div>
+                        <!-- avatar  -->
+                        <div class="flex items-center gap-x-5">
+                            <div><img src="img/t_thumb1.png" class="rounded-[50%] w-16" alt=""></div>
+                            <div class="flex-1">
+                                <h5 class="font-semibold text-lg text-[#4499C6]">William Jack</h5>
+                                <p class="text-sm text-[#5f5f5f]">Businessman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="flex gap-2">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                        </div>
+                        <div class="space-y-2 my-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Transformed our brand</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute
+                                order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.
+                            </p>
+                        </div>
+                        <!-- avatar  -->
+                        <div class="flex items-center gap-x-5">
+                            <div><img src="img/t_thumb2.png" class="rounded-[50%] w-16" alt=""></div>
+                            <div class="flex-1">
+                                <h5 class="font-semibold text-lg text-[#4499C6]">Danial Mark</h5>
+                                <p class="text-sm text-[#5f5f5f]">Creative Director</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div class="bg-white hover:bg-[#485E7C21] p-5 md:p-10 rounded-lg">
+                        <div class="flex gap-2">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                            <img src="img/star.png" class="w-8" alt="">
+                        </div>
+                        <div class="space-y-2 my-6">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Exceptional creativity</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute
+                                order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.
+                            </p>
+                        </div>
+                        <!-- avatar  -->
+                        <div class="flex items-center gap-x-5">
+                            <div><img src="img/t_thumb3.png" class="rounded-[50%] w-16" alt=""></div>
+                            <div class="flex-1">
+                                <h5 class="font-semibold text-lg text-[#4499C6]">Smith Align</h5>
+                                <p class="text-sm text-[#5f5f5f]">Businessman</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+        </section>
+        <!-- Team  -->
+        <section id="services" class="">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-20">
+                <div class="text-center space-y-3 lg:space-y-5">
+                    <h2 class="font-semibold text-3xl md:text-5xl text-[#171717]">Our Team</h2>
+        
+                </div>
+                <!-- team card  -->
+                <div class="mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- single item  -->
+                    <div>
+                        <div class="bg-[#fdfdfd] relative border-4 border-[#171717] rounded-lg overflow-hidden group">
+                            <img src="img/team1.png"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <div
+                                class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
+                            </div>
+                            <div
+                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Creative Director
+                            </p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div>
+                        <div class="bg-[#fdfdfd] relative border-4 border-[#171717] rounded-lg overflow-hidden group">
+                            <img src="img/team1.png"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <div
+                                class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
+                            </div>
+                            <div
+                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Creative Director
+                            </p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div>
+                        <div class="bg-[#fdfdfd] relative border-4 border-[#171717] rounded-lg overflow-hidden group">
+                            <img src="img/team1.png"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <div
+                                class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
+                            </div>
+                            <div
+                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Creative Director
+                            </p>
+                        </div>
+                    </div>
+                    <!-- single item  -->
+                    <div>
+                        <div class="bg-[#fdfdfd] relative border-4 border-[#171717] rounded-lg overflow-hidden group">
+                            <img src="img/team1.png"
+                                class="w-full transform transition-transform duration-1000 group-hover:scale-105" alt="">
+                            <div
+                                class="absolute inset-0 bg-[#171717] opacity-0 transition-opacity duration-300 group-hover:opacity-30">
+                            </div>
+                            <div
+                                class="flex items-center justify-center gap-x-3 absolute -bottom-16 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:bottom-4">
+                                <a href="#"><img src="img/facebook.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/instagram.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                                <a href="#"><img src="img/linkedin.png" class="w-10 rounded-full bg-white border" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <h3 class="text-xl md:text-2xl text-[#171717] font-semibold">Andrew Mark</h3>
+                            <p class="text-base  text-[#5f5f5f]">
+                                Creative Director
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Initialize AOS for animations
+        AOS.init();
+
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+        });
+    </script>
+    <script>
+        const words = ["Excellence", "Innovation", "Growth", "Success", "Creativity"];
+        let i = 0, j = 0, del = false;
+
+        function typewrite() {
+            const current = words[i];
+            document.getElementById("typewriter").textContent = del ? current.slice(0, --j) : current.slice(0, ++j);
+
+            if (j === current.length) del = true; // Start deleting after typing the full word
+            if (j === 0) del = false, i = (i + 1) % words.length; // Move to next word after deletion
+
+            setTimeout(typewrite, del ? 50 : 150); // Adjust speed based on typing or deleting
+        }
+
+        typewrite();
+    </script>
+</body>
+
+</html>
